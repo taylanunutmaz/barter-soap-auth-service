@@ -10,7 +10,7 @@ return [
                 'Exception'
             ],
             'types' => [
-                'keyValue' => \Viewflex\Zoap\Demo\Types\KeyValue::class,
+                'user' => \App\Types\User::class,
             ],
             'strategy' => 'ArrayOfTypeComplex',
             'headers' => [

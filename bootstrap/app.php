@@ -95,7 +95,7 @@ $app->configure('zoap');
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
-$app->register(\Viewflex\Zoap\ZoapServiceProvider::class);
+$app->register(Viewflex\Zoap\ZoapServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
